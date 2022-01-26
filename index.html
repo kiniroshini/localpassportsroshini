@@ -1,0 +1,75 @@
+<h1 align="center">Passport Data INDIA</h1>
+<div class="background">
+<div class="transbox">
+<table border="1px" style="font-weight: bolder;opacity: 1;">
+    <thead style="font-weight: bolder;opacity: 1;">
+        <th style="font-weight: bolder;opacity: 1;">
+            Sr. no.
+        </th>
+        <th style="font-weight: bolder;opacity: 1;">
+            name
+        </th>
+        <th style="font-weight: bolder;opacity: 1;">
+            age
+        </th>
+        <th style="font-weight: bolder;opacity: 1;">
+           city
+        </th>
+        <th style="font-weight: bolder;opacity: 1;">
+          Action
+       </th>
+
+    </thead>
+    <tbody id="table_data">
+
+    </tbody>
+</table></div></div><br>
+<p align="center">Apply for passport?<br>
+<button><a href="add.html" style="text-decoration: none;">Add your data now!</a></button></p>
+<style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+
+      
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+        text-shadow : 2px 2px 2px rgb(194, 193, 193);
+    }
+    h1:hover{
+        text-shadow : 4px 4px 2px rgb(194, 193, 193);
+        animation-duration: 1s;
+        transition-duration: 1s;
+    }
+
+div.background {
+  background:  url('https://cdn2.vectorstock.com/i/1000x1000/59/96/airplane-flying-up-on-white-background-vector-9925996.jpg') repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  opacity: 1;
+}
+    </style>
+    
+<script src="script.js"></script>
+<script>
+    getData();
+</script>
